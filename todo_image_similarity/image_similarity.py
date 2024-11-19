@@ -49,7 +49,7 @@ index.add(embeddings)  # 임베딩 추가
 print(f"인덱스에 저장된 벡터 수: {index.ntotal}")
 
 # 검색할 이미지의 특징 벡터 추출
-query_image_path = './testimage/vinil.png'  # 예시 이미지 경로
+query_image_path = './testimage/dog.jpg'  # 예시 이미지 경로
 query_features = extract_features(query_image_path).reshape(1, -1)
 
 # 가장 유사한 k개 벡터 검색
